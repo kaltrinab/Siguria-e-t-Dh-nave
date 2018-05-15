@@ -58,17 +58,18 @@ namespace WindowsFormsApplication5
             byte[] ciphertext = Convert.FromBase64String(txtciphertext.Text);
             TripleDESCryptoServiceProvider des = new TripleDESCryptoServiceProvider();
             des.Key = keyArr;
-            des.Mode = CipherMode.CBC;
+            des.Mode = CipherMode.ECB;
             des.Padding = PaddingMode.Zeros;
 
             MemoryStream ms = new MemoryStream(ciphertext);
+            byte[] textbytes = new byte[ms.Length];
             CryptoStream cs = new CryptoStream(ms, des.CreateDecryptor(), CryptoStreamMode.Read);
-            cs.Read(ciphertext, 0, ciphertext.Length);
+            cs.Read(textbytes, 0, textbytes.Length);
             cs.Close();
 
-            byte[] textbytes = ms.ToArray();
+            
 
-            txtdekriptuar.Text = Convert.ToBase64String(textbytes);
+            txtdekriptuar.Text = Encoding.UTF8.GetString(textbytes);
 
 
         }

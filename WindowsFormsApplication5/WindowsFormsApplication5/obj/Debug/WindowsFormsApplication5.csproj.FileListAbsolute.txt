@@ -16,3 +16,6 @@ C:\Users\Admin\Desktop\New folder\WindowsFormsApplication5\WindowsFormsApplicati
 C:\Users\Admin\Desktop\New folder\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Form1.resources
 C:\Users\Admin\Desktop\New folder\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
 C:\Users\Admin\Desktop\New folder\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\Siguria-e-te-Dhenave\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\Admin\Documents\GitHub\Siguria-e-te-Dhenave\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\Admin\Documents\GitHub\Siguria-e-te-Dhenave\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
